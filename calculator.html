@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output Tag</title>
+</head>
+<body>
+    <fieldset style="width: 200px;">
+    <legend>Addition Calculator</legend>
+
+
+<form action=""onchange="result.value = v1.valueAsNumber + v2.valueAsNumber +v3.valueAsNumber">
+
+<label for="v1">Value One</label>
+<input type="number" id="v1"><br><br>
+
+<labe for="v2">Value Two</labe>
+<input type="number" id="v2"><br><br>
+
+<label>Value Three</label>
+<input type="number"id="v3"><br><br>
+
+<strong>Result :</strong>
+<output id="result">0</output>
+
+
+</form>
+
+</fieldset>
+<hr>
+<fieldset style="width: 200px;">
+<legend>Currency Calculator</legend>
+
+<form action="" oninput="output.value=usd.valueAsNumber*105">
+
+
+
+<label for="usd">USD :&dollar;</label>
+<input type="number" id="usd"><br><br>
+
+<strong>BDT : </strong>
+<output id="output">0</output>
+<strong>Tk</strong>
+
+
+</form>
+
+</fieldset>
+<br><br>
+<details>
+    <summary>
+        Calculate
+    </summary>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut laudantium perferendis itaque aliquid veniam quidem architecto, at dolor. Similique repellendus cupiditate nobis eaque eius placeat!
+</details>
+
+</body>
+</html>
